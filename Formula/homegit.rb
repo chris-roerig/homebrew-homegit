@@ -1,8 +1,8 @@
 class Homegit < Formula
   desc "Your personal Git server. No cloud, no auth, no complexity."
   homepage "https://github.com/chris-roerig/homegit"
-  url "https://github.com/chris-roerig/homegit/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "58e1a8b18dab3564414055a67e56462cec5d077d96807186096cf90ded5546df"
+  url "https://github.com/chris-roerig/homegit/archive/refs/tags/v1.0.1.tar.gz"
+  sha256 "0ee7b50940a61065adacf3a76bf669721614d6838261977f359c8d65cf550832"
   license "MIT"
   head "https://github.com/chris-roerig/homegit.git", branch: "main"
 
