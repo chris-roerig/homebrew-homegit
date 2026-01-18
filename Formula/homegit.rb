@@ -17,14 +17,17 @@ class Homegit < Formula
     <<~EOS
       homegit has been installed!
       
-      To start the server:
+      Get started:
         homegit start
+      
+      Configure (optional):
+        homegit config
+      
+      For help and examples:
+        homegit help
       
       Configuration is stored at:
         ~/.homegit/config
-      
-      For more information:
-        homegit help
     EOS
   end
 
