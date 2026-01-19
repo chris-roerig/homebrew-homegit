@@ -17,17 +17,19 @@ class Homegit < Formula
     <<~EOS
       homegit has been installed!
       
-      Get started:
+      Start now:
         homegit start
+      
+      Or start and auto-start on boot:
+        brew services start homegit
       
       Configure (optional):
         homegit config
       
-      For help and examples:
+      For help:
         homegit help
       
-      Configuration is stored at:
-        ~/.homegit/config
+      Configuration: ~/.homegit/config
     EOS
   end
 
